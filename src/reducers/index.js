@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import LiveStreams from './reducer_liveStreams';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  liveStreams: LiveStreams
 });
 
 export default rootReducer;
